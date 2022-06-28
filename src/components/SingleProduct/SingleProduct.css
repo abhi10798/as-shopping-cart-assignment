@@ -1,0 +1,52 @@
+.SingleProduct-box {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dashed #f0f0f0;
+    margin-bottom: 30px;
+    min-width: 200px;
+}
+
+.SingleProductHeading {
+    height: 90px;
+}
+
+.SingleProductImage img {
+    width: 200px;
+    height: 200px;
+}
+
+.SingleProductDescription {
+    height: 100px;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #f0f0f0;
+}
+
+.SingleProductDescription p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 19px;
+    max-height: 80px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.SingleProductMRP {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.SingleProductPrice {
+    margin-left: 5px;
+}
+
+.SingleProductBtn button {
+    color: white;
+    background-color: #e52254;
+    border: none;
+    padding: 10px;
+    font-family: "Dosis";
+    cursor: pointer;
+}

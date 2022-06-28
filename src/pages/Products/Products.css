@@ -1,0 +1,9 @@
+.product-container {
+    margin: 0px 5%;
+}
+  
+@media screen and ( max-width : 800px ) {
+    .product-container { 
+      margin: 0px 1%;
+    }
+}
